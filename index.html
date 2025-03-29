@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahir Mahmud Siam</title>
+    <link rel="icon" type="siam-icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0409076ae1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Mahir Mahmud Siam</span><br> 
+                    <span class="animated-text">
+                        <span class="text-1">a Web Developer</span>
+                        <span class="text-2">an App Developer</span>
+                    </span>
+                </h1>
+            </div>
+        </div>
+    </div>
+<!----------about---->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>
+                        My name is Mahir Mahmud Siam. I am a computer science and engineering student passionate about technology and innovation. As the founder of Make It Happen, a creative event planning company, I have developed strong leadership, critical thinking, problem-solving, and communication skills. I am also an avid reader, lifelong learner, explorer, traveler, and social activist dedicated to making a positive impact in the world.                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Eduation')">Eduation</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Flutter</span><br>Developer</li>
+                            <li><span>Web</span><br>Developer</li>
+                            <li><span>UI/UX</span><br>Designer</li>
+                            <li><span>App Development</span><br>Android/iOS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>June 2024 — Present</span><br>Mobile Application Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Eduation">
+                        <ul>
+                            <li><span>2023-Present </span><br>B.sc. CSE at American International University - Bangladesh (AIUB)</li>
+                            <li><span>2021</span><br>HSC at Dhaka Imperial College </li>
+                            <li><span>2019</span><br>SSC at National Ideal School & College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------My Hobbies--------->
+
+<div id="hobbies">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="hobbies-list">
+            <div class="hobbie">
+                <img src="images/photo.png">
+                <div class="layer">
+                    <h3>Photography 📷</h3>
+                    <p>
+                        I love capturing moments that tell a story. From landscapes to portraits, photography allows me to freeze time and express creativity through visuals.
+                    </p>
+                </div>
+            </div>
+            <div class="hobbie">
+                <img src="images/football.png">
+                <div class="layer">
+                    <h3>Football ⚽</h3>
+                    <p>
+                        Football is more than just a game for me—it's a passion. Whether playing with friends or watching a thrilling match, I enjoy the teamwork, strategy, and excitement the sport brings.
+                    </p>
+                </div>
+            </div>
+            <div class="hobbie">
+                <img src="images/travel.png">
+                <div class="layer">
+                    <h3>Traveling 🌍</h3>
+                    <p>
+                        Exploring new places, experiencing different cultures, and meeting new people inspire me. Traveling fuels my creativity and broadens my perspective on the world.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---------Services--------->
+
+<div id="services">
+    <div class="containe">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Website Development</h2>
+                <p>I create responsive, user-friendly websites using the latest technologies, ensuring your site is fast, secure, and optimized for seamless browsing across all devices.</p> 
+                 <a href="#">Learn More</a>
+             </div>
+             <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>UI/UX Design</h2>
+                <p>I specialize in designing intuitive, visually appealing user interfaces that enhance user experience, focusing on usability, aesthetics, and seamless navigation to boost engagement.</p> 
+                 <a href="#">Learn More</a>
+             </div>
+             <div>
+                <i class="fa-solid fa-mobile"></i>
+                <h2>App Development</h2>
+                <p>I specialize in designing intuitive, visually appealing user interfaces that enhance user experience, focusing on usability, aesthetics, and seamless navigation to boost engagement.</p> 
+                 <a href="#">Learn More</a>
+             </div>
+        </div>
+    </div>
+</div>
+
+<!---------Portfoloi------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/gtaxi.png" alt="https://github.com/MahirMsiam/niyejan">
+                <div class="layer">
+                    <h3>Gtaxi App</h3>
+                    <p>
+                        Gtaxi Application Gtaxi is a ride sharing app. 
+                    </p>
+                    <a href="https://github.com/MahirMsiam/niyejan"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/python.png" alt="https://github.com/MahirMsiam/PythonProjects/tree/main/practice">
+                <div class="layer">
+                    <h3>Python CV Zone</h3>
+                    <p>
+                        Python CV Zone is a simple and interactive web-based application that helps users to make CV.
+                    </p>
+                    <a href="https://github.com/MahirMsiam/PythonProjects/tree/main/practice"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/roommate.png" alt="https://github.com/MahirMsiam/ROOMMATE">
+                <div class="layer">
+                    <h3>Room Mate</h3>
+                    <p>
+                        Room Mate an App to find rental properties.
+                    </p>
+                    <a href="https://github.com/MahirMsiam/ROOMMATE"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="https://github.com/MahirMsiam" id="btn" class="btn">See More</a>
+    </div>
+</div>
+<!----------contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>mahirmahmudsiam@gmail.com</p>
+                <div class="social-icnos">
+                    <a href="https://www.facebook.com/mahirmahmudsiam"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/bhallagtase_na"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/MahirMsiam"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mahir-mahmud-siam/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <input type="submit" id="submit" value="Submit">
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
